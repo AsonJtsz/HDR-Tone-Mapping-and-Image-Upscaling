@@ -1,4 +1,20 @@
-# Instruction
+# Tone Mapping
+
+Tone mapping is a technique to map one set of colors to another to approximate the appearance of highdynamic-range (HDR) images in a medium that has a more limited dynamic range. Tone mapping
+operators can be divided into two main types:
+- global operators: non-linear functions based on the luminance and other global variables of the
+image.
+- local operators: the parameters of the non-linear function change in each pixel, according to
+features extracted from the surrounding parameters.
+
+Both operators are implemented respectively: global logarithmic operator and Durand’s local operator. 
+
+# Single Image Super Resolution
+
+Single image super resolution (SISR) is an image restoration problem which aims to recover a highresolution (HR) image from the corresponding low-resolution (LR) image. The AI upscaling here use a Super Resolution Convolutional Neural Network (SRCNN) with PyTorch.
+
+
+# Instruction for Training
 
 Train for AI Upscaling
 ```
